@@ -1,1 +1,67 @@
-@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+body {
+    color: white;
+    margin: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpapercave.com/wp/wp9757080.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0 5px 30px white;
+    place-content: center;
+}
+
+
+label {
+
+    border-radius: 100px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+
+vaadin-text-field {
+    box-shadow: 0 5px 30px white;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+vaadin-password-field {
+    box-shadow: 0 5px 20px white;
+    background-color: transparent;
+    border-radius: 20px;
+
+}
+
+vaadin-button {
+    box-shadow: 0 5px 30px white;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+
+vaadin-login-form-wrapper {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 30px deepskyblue;
+    border-radius: 20px;
+    border: 20px;
+    height: 400px;
+    padding-block-start: 20px;
+    width: 400px;
+}
+
+
+input:focus {
+    outline: none !important;
+    border-bottom: 2px solid rgb(0, 0, 255);
+    font-size: 17px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+
